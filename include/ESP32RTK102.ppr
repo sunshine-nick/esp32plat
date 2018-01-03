@@ -1,0 +1,84 @@
+[Config]
+Compilator.SaveAll=0
+Compilator.Capture=0
+Compilator.HideOutput=0
+Compilator.ProgSaveAll=0
+Compilator.ProgRunSelection=0
+Compilator.LogType=0
+DefaultDir=E:\msys32\home\Nick\esp\rtk101\main
+DefaultCPIndex=0
+LogtoEnd=1
+DontOpen=0
+AbsolutePath=0
+FileFormat=0
+ProjectFilesOnly=0
+[Project tree]
+ESP32RTK102
+	+project h files
+		lio.h
+		debug.h
+		cli.h
+		platform4esp.h
+		sc_types.h
+		LedflashRequired.h
+		Ledflash.h
+	+project c files
+		..\lio.c
+		..\cli.c
+		..\platform4esp.c
+		..\main.c
+		..\sntp.c
+		..\rtk102.c
+		..\Ledflash.c
+[Open project files]
+0=fsm.h
+1=platform4esp.h
+2=..\lio.c
+3=..\cli.c
+4=..\sntp.c
+5=..\main.c
+6=cli.h
+7=Ledflash.h
+8=LedflashRequired.h
+9=sc_types.h
+10=font8x8_basic.h
+11=fonts.h
+[Selected Project Files]
+Main=
+Selected=fonts.h
+[fsm.h]
+TopLine=27
+Caret=53,29
+[platform4esp.h]
+TopLine=94
+Caret=79,94
+[..\lio.c]
+TopLine=428
+Caret=31,432
+[..\cli.c]
+TopLine=373
+Caret=52,389
+[..\sntp.c]
+TopLine=29
+Caret=18,50
+[..\main.c]
+TopLine=22
+Caret=1,30
+[cli.h]
+TopLine=4
+Caret=24,31
+[Ledflash.h]
+TopLine=111
+Caret=61,133
+[LedflashRequired.h]
+TopLine=5
+Caret=11,5
+[sc_types.h]
+TopLine=1
+Caret=1,1
+[font8x8_basic.h]
+TopLine=64
+Caret=1,1
+[fonts.h]
+TopLine=219
+Caret=1,233
